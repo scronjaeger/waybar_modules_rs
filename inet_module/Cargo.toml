@@ -1,0 +1,9 @@
+[package]
+name = "inet_module"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bar_module = {path = "../bar_module"}
+reqwest = { version = "0.11", features = ["blocking"] }
+if-addrs = { version = "0.11.0" }
